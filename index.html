@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="photo.jpg" alt="A photo of a beautiful cascade with a little bridge between two gorgeous cliffs">
+        Photo de <a href="https://unsplash.com/fr/@tcraye?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tyler Raye</a> sur <a href="https://unsplash.com/fr/photos/une-cascade-avec-un-pont-au-milieu-de-celle-ci-GnyKL3jlAU0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    </header>
+    <main>
+        <div class="head_text">
+            <p>Realize your dreams now! Come visit us in this splendid decor!
+            Sign up now to get started and see marvelous things.</p>
+            <p>You know you want to.</p>
+        </div>
+        <form action="/signup" method="post">
+            <div class="form_container">
+                <legend>Let's do this!</legend>
+                <label for="first_name">FIRST NAME
+                    <input type="text" id="first_name" name="first_name">
+                </label>
+                <label for="last_name">LAST NAME
+                    <input type="text" id="last_name" name="last_name">
+                </label>
+                <label for="email">EMAIL
+                    <input type="email" id="email" name="email">
+                </label>
+                <label for="phone_number">PHONE NUMBER
+                    <input type="tel" id="phone_number" name="phone_number">
+                </label>
+                <label for="password">PASSWORD
+                    <input type="password" id="password" name="password">
+                </label>
+                <label for="confirm_password">CONFIRM PASSWORD
+                    <input type="password" id="confirm_password" name="confirm_password">
+                </label>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+            <div>
+                Already have an account? <a href="/login">Log in</a>
+            </div>
+    </main>
+</body>
+</html>
