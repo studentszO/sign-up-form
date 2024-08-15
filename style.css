@@ -1,8 +1,18 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 :root {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     background-color: #eeeeee;
+    font-family: "bebas_neueregular", system-ui, sans-serif;
 }
 
 body {
@@ -97,6 +107,7 @@ input {
 button {
     margin: 5% 3.2%;
     padding: 10px 65px;
+    font-family: "bebas_neueregular", sans-serif;
 }
 
 form > button + div {
