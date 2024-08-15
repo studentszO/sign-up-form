@@ -23,30 +23,36 @@
         <form action="/signup" method="post">
             <div class="form-container">
                 <legend>Let's do this!</legend>
-                <label for="first_name">FIRST NAME
-                    <input type="text" id="first_name" name="first_name">
-                </label>
-                <label for="last_name">LAST NAME
-                    <input type="text" id="last_name" name="last_name">
-                </label>
-                <label for="email">EMAIL
-                    <input type="email" id="email" name="email">
-                </label>
-                <label for="phone_number">PHONE NUMBER
-                    <input type="tel" id="phone_number" name="phone_number">
-                </label>
-                <label for="password">PASSWORD
-                    <input type="password" id="password" name="password">
-                </label>
-                <label for="confirm_password">CONFIRM PASSWORD
-                    <input type="password" id="confirm_password" name="confirm_password">
-                </label>
+                <div>
+                    <label for="first_name">FIRST NAME
+                        <input type="text" id="first_name" name="first_name">
+                    </label>
+                    <label for="last_name">LAST NAME
+                        <input type="text" id="last_name" name="last_name">
+                    </label>
+                </div>
+                <div>
+                    <label for="email">EMAIL
+                        <input type="email" id="email" name="email">
+                    </label>
+                    <label for="phone_number">PHONE NUMBER
+                        <input type="tel" id="phone_number" name="phone_number">
+                    </label>
+                </div>
+                <div>
+                    <label for="password">PASSWORD
+                        <input type="password" id="password" name="password">
+                    </label>
+                    <label for="confirm_password">CONFIRM PASSWORD
+                        <input type="password" id="confirm_password" name="confirm_password">
+                    </label>
+                </div>
             </div>
-            <button type="submit">Create Account</button>
+        <button type="submit">Create Account</button>
+        <div>
+            Already have an account? <a href="/login">Log in</a>
+        </div>
         </form>
-            <div>
-                Already have an account? <a href="/login">Log in</a>
-            </div>
     </main>
 </body>
 </html>
